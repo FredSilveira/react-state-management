@@ -54,3 +54,8 @@ p {
   margin-right: 0;
   color: #a1c7e6;
 }
+
+form {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
