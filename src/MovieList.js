@@ -1,4 +1,5 @@
 import React from 'react';
+import Movie from './Movie';
 
 const MovieList = () => {
     const movies = ([
@@ -18,10 +19,11 @@ const MovieList = () => {
         id: 23245
       }
     ]);
+
   return(
     <div>
       {movies.map(movie => (
-        <li>{movie.name}</li>
+        <Movie key={movie.id} name={movie.name} price={movie.price} />
       ))}
     </div>
   )
