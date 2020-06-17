@@ -19,7 +19,6 @@ const MovieList = () => {
         id: 23245
       }
     ]);
-
   return(
     <div>
       {movies.map(movie => (
